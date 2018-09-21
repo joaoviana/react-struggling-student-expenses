@@ -1,0 +1,27 @@
+.box-layout {
+    align-items: center;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-layout__box {
+    background: white;
+    border-radius:20px;
+    padding:$xl-size;
+    text-align: center;
+    width:40rem;
+    box-shadow: 3px 3px 2px rgb(119, 119, 119);
+
+    p {
+        font-style:italic;
+    }
+}
+
+.box-layout__title {
+    margin: 0 0 $l-size 0;
+    line-height: 1;
+}

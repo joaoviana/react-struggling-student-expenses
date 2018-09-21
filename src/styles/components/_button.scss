@@ -1,0 +1,35 @@
+.button {
+    background: $mil-coral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display:inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;  
+    text-decoration: none;
+}
+
+.button-google {
+    background: darken($mil-coral, 10%);
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.button-add {
+    background: darken($mil-coral,15%);
+}
+
+.button--secondary {
+    background: rgb(214, 201, 196);
+}
+
+.button--link {
+    background:none;
+}
+
+.button:hover {
+    background:white;
+    color:darken($mil-coral,20%);
+    box-shadow: 2px 5px;
+}
