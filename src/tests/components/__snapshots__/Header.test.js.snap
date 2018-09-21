@@ -3,7 +3,7 @@
 exports[`should render Header correctly 1`] = `
 <header>
   <h1>
-    Expensify
+    Struggling Student Expenses
   </h1>
   <NavLink
     activeClassName="is-active"
@@ -20,12 +20,10 @@ exports[`should render Header correctly 1`] = `
   >
     Create Expense
   </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/help"
+  <button
+    onClick={[Function]}
   >
-    Help
-  </NavLink>
+    Logout
+  </button>
 </header>
 `;
