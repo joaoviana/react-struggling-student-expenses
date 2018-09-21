@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%; // working with base 10
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button:disabled{
+    cursor: default
+}
+
+.is-active {
+    font-weight: bold;
+}
